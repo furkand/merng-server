@@ -6,7 +6,7 @@ const resolvers = require('./graphql/resolvers');
 const { MONGODB } = require('./config.js');
 
 const pubsub = new PubSub();
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT  || 5000
 
 const server = new ApolloServer({
   typeDefs,
@@ -23,7 +23,7 @@ mongoose
   .then((res) => {
     console.log(`Server running at ${res.url}`);
   })
-  .cath( err => {
+  .catch( err => {
     console.error(err)
   })
  
