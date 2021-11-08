@@ -15,7 +15,7 @@
     "apollo-cache-inmemory": "^1.6.3",
     "apollo-client": "^2.6.4",
     "apollo-link-http": "^1.5.16",
-    "apollo-server": "^2.5.0",
+    "apollo-server": "^2.25.3",
     "bcryptjs": "^2.4.3",
     "graphql": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
